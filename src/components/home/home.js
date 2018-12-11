@@ -19,7 +19,7 @@ export default class Home extends Component {
     render() {
         const {navigate} = this.props.navigation;
         return (
-            <ImageBackground source={require('./../../../Images/fundo_1.jpg')} style={styles.backgroundImage}>
+            <ImageBackground source={require('./../../../Images/fundo_3.png')} style={styles.backgroundImage}>
                 <View style={styles.viewHomeLogo}>
                     <Image style={{ width: 30, height: 30 }} source={require('./../../../Images/question.png')} />
                     <Image style={{ width: 30, height: 30 }} source={require('./../../../Images/question_2.png')} />
